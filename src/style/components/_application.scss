@@ -1,0 +1,38 @@
+.application {
+  .button {
+    padding: {
+      left: rem(54);
+      right: rem(54);
+    }
+  }
+}
+
+.application__container {
+  border-top: 4px solid $green;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.application__form {
+  padding: rem(120 60 100 320);
+  padding-left: rem(320);
+}
+
+.application__img {
+  padding: rem(130 41 99 48);
+  min-width: rem(997);
+  background: $brown;
+  text-align: right;
+}
+
+.application__text-container {
+  font-size: rem(60);
+  color: $yellow;
+  font-weight: 500;
+  letter-spacing: 0.6px;
+  border: 3px dashed $yellow;
+  padding: rem(32 45 29);
+  margin-bottom: rem(119);
+  text-align: left;
+}

@@ -1,0 +1,39 @@
+.technologies {
+  margin-bottom: rem(244);
+}
+
+.technologies__divider {
+  margin-bottom: rem(50);
+}
+
+.technologies__block {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  &_reverse {
+    flex-direction: row-reverse;
+    .technologies__img {
+      margin-right: 0;
+    }
+    .technologies__descr {
+      margin-right: rem(43);
+    }
+  }
+  &:not(:last-child) {
+    margin-bottom: rem(78);
+  }
+}
+
+.technologies__img {
+  max-width: rem(644);
+  min-width: rem(644);
+  height: rem(419);
+  border: 4px solid $green;
+  margin-right: rem(43);
+}
+
+.technologies__caption {
+  font-size: rem(32);
+  font-weight: 500;
+  margin-bottom: rem(65);
+}

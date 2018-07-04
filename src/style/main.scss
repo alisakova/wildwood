@@ -1,9 +1,10 @@
 @import 'variables';
 @import 'util';
+@import 'mixins';
 
 html {
 	height: 100%;
-	font: 300 #{18px}/#{1.44} $main-font;
+	font: 300 #{18px}/#{1.2} $main-font;
 }
 
 body,
@@ -54,6 +55,15 @@ ul {
 	list-style-type: none;
 }
 
+h1 {
+	font-size: rem(40);
+	line-height: 1.25;
+	letter-spacing: 0.4px;
+	margin: 0;
+	font-weight: 500;
+	text-align: center;
+}
+
 h2 {
 	font-size: rem(32);
 	line-height: 1.25;
@@ -81,18 +91,18 @@ img {
 	padding: 0 rem(20);
 	margin: 0 auto;
 }
-
-@media (min-width: 1600px) {
-	html {
-		font-size: 20px;
-	}
-}
-
-@media (min-width: 2000px) {
-	html {
-		font-size: 24px;
-	}
-}
+//
+// @media (min-width: 1600px) {
+// 	html {
+// 		font-size: 20px;
+// 	}
+// }
+//
+// @media (min-width: 2000px) {
+// 	html {
+// 		font-size: 24px;
+// 	}
+// }
 
 @media (max-width: 1080px) {
 	html {
@@ -105,3 +115,17 @@ img {
 		font-size: 10px;
 	}
 }
+
+@import "components/first-slide";
+@import "components/sub";
+@import "components/about";
+@import "components/divider";
+@import "components/features";
+@import "components/prices";
+@import "components/prices-slider";
+@import "components/technologies";
+@import "components/application";
+@import "components/form";
+@import "components/checkbox";
+@import "components/button";
+@import "components/footer";

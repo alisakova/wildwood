@@ -1,0 +1,112 @@
+.prices-slider {
+  margin-bottom: rem(137);
+}
+
+.slick-list {
+  margin: 0 rem(-14);
+}
+
+.slick-track {
+  padding: {
+    top: rem(15);
+    bottom: rem(25);
+  };
+}
+
+.slick-slide {
+  padding: 0 rem(14);
+  &:hover, &:active, &:focus {
+    .prices-slider__content {
+      border-color: transparent;
+      box-shadow: rem(6 6 27) 0 rgba(233, 126, 88, 0.4);
+    }
+  }
+}
+
+%icons-slick {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-position: 100%;
+  color: #000;
+  position: relative;
+  z-index: 1;
+}
+
+.slick-prev {
+  font-size: 0;
+  left: rem(-45);
+  &:before {
+    content: '<';
+    // background: url('../img/left-arrow.svg') no-repeat;
+    // background-size: 100% 100%;
+    @extend %icons-slick;
+  }
+}
+
+.slick-next {
+  font-size: 0;
+  right: rem(-45);
+  &:before {
+    content: '>';
+    // background: url('../img/right-arrow.svg') no-repeat;
+    // background-size: 100% 100%;
+    @extend %icons-slick;
+  }
+}
+
+.slick-arrow {
+  width: rem(24);
+  height: rem(24);
+  top: 50%;
+  background: #fff;
+  border: 1px solid $orange;
+  border-radius: rem(4);
+  padding: rem(5);
+  position: absolute;
+  cursor: pointer;
+  transition: border-color 250ms;
+  &:hover, &:active, &:focus {
+    border-color: $orange;
+  }
+}
+
+
+.prices-slider__content {
+  cursor: pointer;
+  border: 1px solid $orange;
+  padding: rem(67) rem(28) rem(43);
+  text-align: center;
+  transition: all 250ms;
+}
+
+.prices-slider__img {
+  max-width: rem(345);
+  height: rem(213);
+  background: gray;
+  margin-bottom: rem(17);
+}
+
+.prices-slider__caption {
+  font-size: rem(32);
+  font-weight: 500;
+  color: $slider-brown;
+  margin-bottom: rem(33);
+  letter-spacing: 0.3px;
+}
+
+.prices-slider__descr {
+  font-size: rem(28);
+  color: $slider-brown;
+  padding-bottom: rem(33);
+  margin-bottom: rem(34);
+  border-bottom: 2px solid $orange;
+  letter-spacing: 0.3px;
+}
+
+.prices-slider__price {
+  font-size: rem(42);
+  font-weight: 500;
+  color: $orange;
+  letter-spacing: 0.4px;
+}
