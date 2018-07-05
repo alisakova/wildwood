@@ -1,0 +1,136 @@
+.test {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: rem(96 0 105);
+  h1 {
+    margin-bottom: rem(45);
+    font-size: rem(36);
+    text-align: left;
+  }
+  .checkbox__text {
+    font-size: rem(28);
+  }
+  .form__item {
+    &:not(:last-child) {
+      margin-bottom: rem(31);
+    }
+  }
+}
+
+.test__col {
+  &:last-child {
+    max-width: rem(579);
+    min-width: rem(579);
+  }
+
+}
+
+.test__descr {
+  border: 2px solid $green;
+  padding: rem(35 22 21 35);
+  margin-bottom: rem(39);
+  min-height: rem(800);
+  &_relative {
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+  }
+}
+
+.test__range {
+  border-radius: rem(10);
+  border: 2px solid $green;
+  position: relative;
+  max-width: rem(217);
+  min-width: rem(217);
+  height: rem(40);
+  margin: {
+    top: rem(35);
+    bottom: rem(86);
+    left: rem(190);
+  }
+}
+
+.test__progress {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background: $green;
+  width: rem(60);
+}
+
+.test__form {
+  margin-bottom: rem(44);
+}
+
+.test__buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.test__info {
+  font-size: rem(28);
+  line-height: 1.14;
+  position: relative;
+  padding: {
+    top: rem(43);
+    bottom: rem(39);
+  }
+  &:before, &:after {
+    content: '';
+    background: $green;
+    height: 2px;
+    position: absolute;
+    width: 100%;
+    display: block;
+
+  }
+  &:before {
+    top: 0;
+  }
+  &:after {
+    bottom: 0;
+  }
+}
+
+.test__info-text {
+  max-width: rem(360);
+}
+
+.test__img {
+  width: 100%;
+  height: rem(423);
+  background: gray;
+  &_absolute {
+    width: rem(755);
+    position: absolute;
+    top: rem(35);
+    left: rem(35);
+  }
+}
+
+.test__additional-info {
+  margin-top: rem(26);
+  p {
+    line-height: 1.22;
+    letter-spacing: 0.2px;
+    &:not(:last-child) {
+      margin-bottom: rem(20);
+    }
+  }
+  &_bordered {
+    margin-bottom: rem(27);
+    &:after {
+      content: '';
+      height: 2px;
+      max-width: rem(440);
+      width: 100%;
+      background: $green;
+      margin-top: rem(45);
+      display: block;
+    }
+  }
+}

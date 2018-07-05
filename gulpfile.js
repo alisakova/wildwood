@@ -28,7 +28,7 @@ var path = {
   },
   src: {
     //Пути откуда брать исходники
-    html: "src/*.html",
+    html: "src/**/**/*.html",
     js: "src/js/*.js",
     style: "src/style/main.scss",
     img: ["src/img/*.*", "src/img/**/*.*"]

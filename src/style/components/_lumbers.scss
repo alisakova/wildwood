@@ -1,0 +1,81 @@
+.lumbers {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+
+.lumbers__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  min-height: rem(252);
+  &_small {
+    width: 27%;
+  }
+  &_medium {
+    width: 36%;
+    position: relative;
+    text-align: center;
+    padding: {
+      left: rem(63);
+      right: rem(46);
+    }
+    &:before, &:after {
+      content: '';
+      position: absolute;
+      background: $green;
+      width: 2px;
+      top: 0;
+    }
+    &:before {
+      left: 0;
+      height: rem(239);
+    }
+    &:after {
+      right: 0;
+      height: rem(136);
+    }
+  }
+  &_large {
+    width: 37%;
+    padding: rem(0 21 0 42);
+    position: relative;
+    text-align: right;
+    &:after {
+      content: '';
+      position: absolute;
+      background: $green;
+      width: 2px;
+      height: rem(88);
+      top: 0;
+      right: 0;
+    }
+  }
+}
+
+.lumbers__img {
+  border-radius: 50%;
+  margin: 0 auto rem(42);
+  &_small {
+    width: rem(95);
+    height: rem(92);
+    background: gray;
+    margin: 0 0 rem(42);
+  }
+  &_medium {
+    width: rem(124);
+    height: rem(121);
+    background: gray;
+  }
+  &_large {
+    width: rem(157);
+    height: rem(154);
+    background: gray;
+  }
+}
+
+.lumbers__size {
+  font-size: rem(22);
+  line-height: 1.45;
+}

@@ -10,3 +10,32 @@
   background: rgba(255, 245, 104, 0.7);
   margin-bottom: rem(25);
 }
+
+.test-button {
+  border: 2px solid $green;
+  color: $green;
+  font-size: rem(22);
+  line-height: 1;
+  font-weight: 500;
+  padding: rem(10 19 10 16);
+  border-radius: rem(10);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  &_next {
+    flex-direction: row-reverse;
+    .test-button__icon {
+      margin-left: rem(24);
+      transform: scale(-1);
+    }
+  }
+  &_back {
+    .test-button__icon {
+      margin-right: rem(24);
+    }
+  }
+}
+
+.test-button__icon {
+  max-width: rem(15);
+}
