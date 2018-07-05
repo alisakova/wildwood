@@ -14,6 +14,11 @@
     flex-direction: row-reverse;
     .technologies__img {
       margin-right: 0;
+      &:after {
+        right: 0;
+        left: auto;
+        width: rem(204);
+      }
     }
     .technologies__descr {
       margin-right: rem(43);
@@ -30,6 +35,23 @@
   height: rem(419);
   border: 4px solid $green;
   margin-right: rem(43);
+  position: relative;
+  cursor: pointer;
+  &:hover, &:active, &:focus {
+    &:after {
+      width: 0;
+    }
+  }
+  &:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: rem(330);
+    height: 100%;
+    background: $green;
+    opacity: 0.5;
+    transition: all 250ms;
+  }
 }
 
 .technologies__caption {

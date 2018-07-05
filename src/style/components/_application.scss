@@ -4,6 +4,8 @@
       left: rem(54);
       right: rem(54);
     }
+    margin-bottom: 0;
+    background: $bright-yellow;
   }
 }
 
@@ -11,17 +13,20 @@
   border-top: 4px solid $green;
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: stretch;
 }
 
 .application__form {
-  padding: rem(120 60 100 320);
-  padding-left: rem(320);
+  padding: rem(120 60 100 0);
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  width: 45%;
 }
 
 .application__img {
   padding: rem(130 41 99 48);
-  min-width: rem(997);
+  width: 55%;
   background: $brown;
   text-align: right;
 }

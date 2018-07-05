@@ -1,3 +1,8 @@
+input {
+  font-weight: 300;
+  font-family: $main-font;
+}
+
 input[type="text"],
 input[type="tel"] {
   width: 100%;
@@ -10,11 +15,13 @@ input[type="tel"] {
 }
 
 .form__input {
+  max-width: rem(540);
   border: 3px solid $green;
   border-radius: rem(10);
   padding: rem(24 37 28);
   font-size: rem(32);
   letter-spacing: 0.3px;
+  text-align: center;
   -webkit-appearance: none;
   @include input-placeholder {
     color: $main-font-color;

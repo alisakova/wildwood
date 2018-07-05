@@ -1,0 +1,52 @@
+.checkbox {
+  position: relative;
+  cursor: pointer;
+  color: $main-font-color;
+  font-size: rem(12);
+  display: flex;
+  align-items: center;
+  height: rem(38);
+  input {
+    //Скрытие дефолтного radio или чекбокса
+    position: absolute;
+    opacity: 0;
+    left: -9999px;
+    &:checked {
+      & + .checkbox__checkmark:after {
+        display: block;
+      }
+    }
+  }
+}
+
+.checkbox__checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: rem(38);
+  width: rem(38);
+  border-radius: rem(10);
+  border: 2px solid $green;
+}
+
+.checkbox__checkmark:after {
+  content: '';
+  position: absolute;
+  display: none;
+}
+
+.checkbox .checkbox__checkmark {
+  &:after {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.checkbox__text {
+  display: block;
+  padding-left: rem(50);
+  line-height: 1.17;
+}
