@@ -1,0 +1,10 @@
+.test-tenth {
+  .progress__complete {
+    width: rem(184);
+  }
+  .test__content {
+    padding-top: rem(57);
+    border-top: 4px solid $green;
+    width: 100%;
+  }
+}

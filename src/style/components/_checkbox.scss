@@ -37,6 +37,7 @@
 
 .checkbox .checkbox__checkmark {
   &:after {
+    background: url('../img/checkmark.svg') no-repeat center center;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);

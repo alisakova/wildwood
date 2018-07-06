@@ -3,7 +3,9 @@
   justify-content: space-between;
   align-items: flex-start;
   padding: rem(96 0 105);
-  h1 {
+  color: $light-brown;
+  position: relative;
+  h1, h2 {
     margin-bottom: rem(45);
     font-size: rem(36);
     text-align: left;
@@ -19,11 +21,13 @@
 }
 
 .test__col {
+  &:nth-child(2) {
+    padding-right: rem(47);
+  }
   &:last-child {
     max-width: rem(579);
     min-width: rem(579);
   }
-
 }
 
 .test__descr {
@@ -36,33 +40,36 @@
     display: flex;
     align-items: flex-end;
   }
-}
-
-.test__range {
-  border-radius: rem(10);
-  border: 2px solid $green;
-  position: relative;
-  max-width: rem(217);
-  min-width: rem(217);
-  height: rem(40);
-  margin: {
-    top: rem(35);
-    bottom: rem(86);
-    left: rem(190);
+  &_flex {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    text-align: center;
+    padding: {
+      left: rem(62);
+      right: rem(62);
+    }
   }
-}
-
-.test__progress {
-  position: absolute;
-  left: 0;
-  top: 0;
-  bottom: 0;
-  background: $green;
-  width: rem(60);
+  &_with-form {
+    text-align: center;
+    padding: {
+      top: rem(97);
+      bottom: 0;
+    }
+  }
+  .test__form {
+    margin-bottom: rem(97);
+  }
 }
 
 .test__form {
   margin-bottom: rem(44);
+  &_bordered {
+    padding-bottom: rem(46);
+  }
+  &_without-margin {
+    margin-bottom: 0;
+  }
 }
 
 .test__buttons {
@@ -129,8 +136,75 @@
       max-width: rem(440);
       width: 100%;
       background: $green;
-      margin-top: rem(45);
+      margin-top: rem(20);
       display: block;
     }
+  }
+}
+
+.test__note {
+  border: 1px solid $green;
+  color: $green;
+}
+
+.test__text {
+  margin-bottom: rem(25);
+  font-size: rem(28);
+}
+
+.test__contact-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.test__contact-button {
+  display: inline-block;
+  border-radius: 10px;
+  background: #fff;
+  border: 2px solid $green;
+  padding: rem(13) rem(20) rem(14);
+  min-width: rem(300);
+  width: auto;
+  font-weight: 500;
+  font-size: rem(26);
+  letter-spacing: 0.3px;
+  text-align: center;
+  &_with-bg {
+    border: none;
+    background: $yellow;
+  }
+  &:not(:last-child) {
+    margin-bottom: rem(34);
+  }
+  &:last-child {
+    margin-bottom: rem(17);
+  }
+}
+
+.test__content {
+  font-size: rem(32);
+  font-weight: 500;
+  padding-bottom: rem(170);
+}
+
+.test__form-caption {
+  font-size: rem(26);
+  font-weight: 500;
+  margin-bottom: rem(49);
+}
+
+.test__discount-caption {
+  font-size: rem(40);
+  font-weight: 500;
+  margin-bottom: rem(43);
+}
+
+.test__discount-text {
+  &_right {
+    text-align: right;
+  }
+  &:first-child {
+    margin-bottom: rem(30);
   }
 }

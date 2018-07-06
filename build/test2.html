@@ -15,16 +15,26 @@
 <body>
   <main class="container">
     <div class="test test-second">
+      <div class="test__logo logo">
+        <div class="logo__icon">
+          <img src="img/test-logo.svg" alt="Логотип" />
+        </div>
+        <div class="logo__info">
+          г. Москва,
+          <br />ул. Тверская, д. 19
+        </div>
+      </div>
+
       <div class="test__col">
-        <div class="test__range">
-          <div class="test__progress">
+        <div class="test__progress progress">
+          <div class="progress__complete">
           </div>
         </div>
         <h1>Выберите площадь дома</h1>
         <form class="form test__form">
           <div class="form__item">
-            <label for="application" class="checkbox">
-              <input id="application" type="checkbox" checked />
+            <label for="square1" class="checkbox">
+              <input id="square1" type="radio" name="square" />
               <span class="checkbox__checkmark"></span>
               <span class="checkbox__text">
         Меньше 60 м<sup>2</sup>
@@ -32,8 +42,8 @@
             </label>
           </div>
           <div class="form__item">
-            <label for="application" class="checkbox">
-              <input id="application" type="checkbox" checked />
+            <label for="square2" class="checkbox">
+              <input id="square2" type="radio" name="square" />
               <span class="checkbox__checkmark"></span>
               <span class="checkbox__text">
         От 60 до 100 м<sup>2</sup>
@@ -41,8 +51,8 @@
             </label>
           </div>
           <div class="form__item">
-            <label for="application" class="checkbox">
-              <input id="application" type="checkbox" checked />
+            <label for="square3" class="checkbox">
+              <input id="square3" type="radio" name="square" />
               <span class="checkbox__checkmark"></span>
               <span class="checkbox__text">
         От 100 до 200 м<sup>2</sup>
@@ -50,8 +60,8 @@
             </label>
           </div>
           <div class="form__item">
-            <label for="application" class="checkbox">
-              <input id="application" type="checkbox" checked />
+            <label for="square4" class="checkbox">
+              <input id="square4" type="radio" name="square" />
               <span class="checkbox__checkmark"></span>
               <span class="checkbox__text">
         От 200 до 300 м<sup>2</sup>
@@ -59,8 +69,8 @@
             </label>
           </div>
           <div class="form__item">
-            <label for="application" class="checkbox">
-              <input id="application" type="checkbox" checked />
+            <label for="square5" class="checkbox">
+              <input id="square5" type="radio" name="square" />
               <span class="checkbox__checkmark"></span>
               <span class="checkbox__text">
         От 300 до 600 м<sup>2</sup>
@@ -68,8 +78,8 @@
             </label>
           </div>
           <div class="form__item">
-            <label for="application" class="checkbox">
-              <input id="application" type="checkbox" checked />
+            <label for="square6" class="checkbox">
+              <input id="square6" type="radio" name="square" />
               <span class="checkbox__checkmark"></span>
               <span class="checkbox__text">
         Больше 600 м<sup>2</sup>
@@ -93,7 +103,26 @@
             </p>
           </div>
           <div class="test__choice choice">
+            <div class="choice__title">
+              Ваш выбор
+            </div>
+            <div class="choice__container">
+              <div class="choice__item choice__item_technology">
+                <div class="choice__img">
 
+                </div>
+                <span class="choice__descr">Post & Beam</span>
+              </div>
+              <div class="choice__divider">
+                +
+              </div>
+              <div class="choice__item choice__item_square">
+                <div class="choice__img">
+                  S
+                </div>
+                <span class="choice__descr">60 - 100 м<sup>2</sup></span>
+              </div>
+            </div>
           </div>
         </div>
 
@@ -101,7 +130,7 @@
           <a href="test.html" class="test__button test-button test-button_back">
             <img src="img/btn-arrow.svg" class="test-button__icon" alt="Стрелка назад" />Назад
           </a>
-          <a href="" class="test__button test-button test-button_next">
+          <a href="test3.html" class="test__button test-button test-button_next">
             <img src="img/btn-arrow.svg" class="test-button__icon" alt="Стрелка вперед" />Далее
           </a>
         </div>

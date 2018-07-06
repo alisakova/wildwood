@@ -1,0 +1,39 @@
+.test-ninth {
+  .progress__complete {
+    width: rem(184);
+  }
+  p {
+    font-size: rem(26);
+    margin-bottom: rem(25);
+  }
+  .checkbox__text {
+    font-size: rem(26);
+  }
+  .form__item {
+    &:not(:last-child) {
+      margin-bottom: rem(54);
+    }
+  }
+  .test__content {
+    padding: {
+      top: rem(57);
+      bottom: 0;
+    }
+    border-top: 4px solid $green;
+    width: 100%;
+  }
+  .test__descr {
+    padding: {
+      left: rem(62);
+      right: rem(62);
+    }
+  }
+  .form__item {
+    &:not(:last-child) {
+      margin-bottom: rem(39);
+    }
+  }
+  .form__input {
+    padding: rem(24 37);
+  }
+}

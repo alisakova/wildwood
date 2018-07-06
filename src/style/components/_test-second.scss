@@ -2,4 +2,41 @@
   .test__descr {
     padding-bottom: rem(78);
   }
+  .test__img {
+    height: rem(271);
+  }
+  .choice__divider {
+    margin: 0 rem(24);
+  }
+  .choice__item {
+    &_technology {
+      .choice__img {
+        width: rem(100);
+        height: rem(60);
+        margin-bottom: rem(5);
+        background: gray;
+      }
+      .choice__descr {
+        padding: rem(7 30);
+        font-size: rem(9);
+      }
+    }
+    &_square {
+      padding: rem(22 25 8);
+      .choice__img {
+        font-size: rem(50);
+      }
+    }
+  }
+  .choice__divider {
+    font-size: rem(50);
+  }
+  .progress__complete {
+    width: rem(78);
+  }
+  .test__additional-info {
+    &:after {
+      margin-top: rem(45);
+    }
+  }
 }

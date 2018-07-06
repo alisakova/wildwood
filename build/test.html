@@ -15,16 +15,26 @@
 <body>
   <main class="container">
     <div class="test">
+      <div class="test__logo logo">
+        <div class="logo__icon">
+          <img src="img/test-logo.svg" alt="Логотип" />
+        </div>
+        <div class="logo__info">
+          г. Москва,
+          <br />ул. Тверская, д. 19
+        </div>
+      </div>
+
       <div class="test__col">
-        <div class="test__range">
-          <div class="test__progress">
+        <div class="test__progress progress">
+          <div class="progress__complete">
           </div>
         </div>
         <h1>Выберите технологию строительства</h1>
         <form class="form test__form">
           <div class="form__item">
-            <label for="application" class="checkbox">
-              <input id="application" type="checkbox" checked />
+            <label for="classic" class="checkbox">
+              <input id="classic" type="radio" name="technology" />
               <span class="checkbox__checkmark"></span>
               <span class="checkbox__text">
         Классическая
@@ -32,8 +42,8 @@
             </label>
           </div>
           <div class="form__item">
-            <label for="application" class="checkbox">
-              <input id="application" type="checkbox" checked />
+            <label for="postAndBeam" class="checkbox">
+              <input id="postAndBeam" type="radio" name="technology" />
               <span class="checkbox__checkmark"></span>
               <span class="checkbox__text">
         Post and Beam
@@ -41,8 +51,8 @@
             </label>
           </div>
           <div class="form__item">
-            <label for="application" class="checkbox">
-              <input id="application" type="checkbox" checked />
+            <label for="gybrid" class="checkbox">
+              <input id="gybrid" type="radio" name="technology" />
               <span class="checkbox__checkmark"></span>
               <span class="checkbox__text">
         Гибридная

@@ -3,11 +3,6 @@ input {
   font-family: $main-font;
 }
 
-input[type="text"],
-input[type="tel"] {
-  width: 100%;
-}
-
 .form__item {
   &:not(:last-child) {
     margin-bottom: rem(38);
@@ -16,6 +11,7 @@ input[type="tel"] {
 
 .form__input {
   max-width: rem(540);
+  width: 100%;
   border: 3px solid $green;
   border-radius: rem(10);
   padding: rem(24 37 28);
@@ -33,4 +29,25 @@ input[type="tel"] {
       opacity: 0;
     }
   }
+  &_yellow-border {
+    border-color: $yellow;
+  }
+}
+
+.form_results {
+  .form__item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+}
+
+.form__icon {
+  margin-right: rem(23);
+  width: rem(41);
+  height: rem(41);
+}
+
+.form__text {
+  font-size: rem(28);
 }

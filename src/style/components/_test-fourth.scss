@@ -1,0 +1,31 @@
+.test-fourth {
+  .test__img {
+    height: rem(260);
+  }
+  .choice__container {
+    margin-bottom: rem(38);
+  }
+  .choice__divider {
+    margin: 0 rem(7);
+  }
+  .choice__item {
+    min-width: rem(66);
+    padding: {
+      left: rem(5);
+      right: rem(5);
+    }
+    &_technology {
+      padding: 0;
+      .choice__img {
+        width: rem(66);
+        height: rem(41);
+      }
+    }
+  }
+  .progress__complete {
+    width: rem(109);
+  }
+  .test__info-text {
+    max-width: none;
+  }
+}

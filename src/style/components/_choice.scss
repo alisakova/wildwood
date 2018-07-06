@@ -6,3 +6,60 @@
   font-size: rem(32);
   margin-bottom: rem(42);
 }
+
+.choice__container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: rem(41);
+}
+
+.choice__item {
+  border: 1px solid $green;
+  padding: rem(11 9 5);
+  &_technology {
+    border: none;
+    padding: 0;
+    .choice__img {
+      width: rem(74);
+      height: rem(45);
+      background: gray;
+    }
+    .choice__descr {
+      background: $green;
+      color: #fff;
+      padding: rem(5 23);
+    }
+  }
+  &_square {
+    padding: rem(15 18 5);
+    .choice__img {
+      width: auto;
+      height: auto;
+      background: none;
+      font-size: rem(37);
+      text-align: center;
+      line-height: 1;
+    }
+  }
+}
+
+.choice__img {
+  width: rem(57);
+  height: rem(44);
+  margin-bottom: rem(5);
+  background: gray;
+}
+
+.choice__descr {
+  display: block;
+  font-size: rem(7);
+  font-weight: 500;
+}
+
+.choice__divider {
+  color: $green;
+  font-size: rem(40);
+  font-weight: 500;
+  margin: 0 rem(17);
+}
