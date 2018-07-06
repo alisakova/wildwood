@@ -1,0 +1,21 @@
+.main-page {
+  .logo {
+    left: rem(-95);
+    &_relative {
+      left: auto;
+    }
+  }
+  .logo__icon {
+    width: rem(218);
+    img {
+      width: 100%;
+    }
+  }
+  .logo__info {
+    color: #fff;
+    top: rem(146);
+    font-size: rem(18);
+    width: 100%;
+    left: 0;
+  }
+}

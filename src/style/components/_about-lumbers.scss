@@ -1,0 +1,22 @@
+.about-lumbers {
+  background: $green;
+  padding: {
+    top: rem(49);
+    bottom: rem(29);
+  }
+  h2 {
+    margin-bottom: rem(30);
+  }
+}
+
+.about-lumbers__container {
+
+}
+
+.about-lumbers__list {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: rem(32);
+  font-weight: 500;
+}

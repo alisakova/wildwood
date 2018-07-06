@@ -4,6 +4,9 @@
   color: $light-brown;
   top: 0;
   left: rem(-50);
+  &_relative {
+    position: relative;
+  }
 }
 
 .logo__info {

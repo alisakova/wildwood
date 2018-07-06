@@ -1,9 +1,13 @@
 .first-slide {
-  background: gray;
-  padding-top: rem(43);
+  background: url('../img/first-slide-bg.jpg') no-repeat;
+  background-size: cover;
+  background-position: center;
   h1 {
     margin-bottom: rem(33);
     color: #fff;
+  }
+  .container {
+    position: relative;
   }
 }
 
@@ -17,6 +21,7 @@
 }
 
 .first-slide__buttons {
+  padding-top: rem(43);
   margin-bottom: rem(47);
   text-align: right;
   display: flex;

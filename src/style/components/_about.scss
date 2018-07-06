@@ -12,7 +12,9 @@
 }
 
 .about__descr {
-  background: gray;
+  // background: url('../img/about-bg.jpeg') no-repeat;
+  // background-size: cover;
+  // background-position: center;
   position: relative;
   &:after {
     content: '';

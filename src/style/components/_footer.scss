@@ -1,6 +1,10 @@
 .footer {
-  background: gray;
+  background: url('../img/footer-bg.jpg') no-repeat;
+  background-size: cover;
+  background-position: center;
   color: #fff;
+  .logo__icon {
+  }
 }
 
 .footer__container {
@@ -14,10 +18,7 @@
 }
 
 .footer__logo {
-  width: rem(218);
-  height: rem(248);
   margin-bottom: rem(34);
-  background: #fff;
 }
 
 .footer__social-icons {
