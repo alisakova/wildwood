@@ -1,8 +1,8 @@
 .about-lumbers {
+  margin-bottom: rem(114);
   background: $green;
   padding: {
     top: rem(49);
-    bottom: rem(29);
   }
   h2 {
     margin-bottom: rem(30);
@@ -10,13 +10,59 @@
 }
 
 .about-lumbers__container {
-
+  background: lighten($green, 5%);
+  .container {
+    max-width: rem(1180);
+  }
 }
 
 .about-lumbers__list {
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-items: center;
   font-size: rem(32);
   font-weight: 500;
+  padding-top: rem(46);
+}
+
+.about-lumbers__item {
+  text-align: center;
+  padding-bottom: rem(29);
+}
+
+.about-lumbers__img {
+  border-radius: 50%;
+  background: lighten($green, 5%);
+  padding: rem(25);
+  margin-bottom: rem(30);
+  min-height: rem(280);
+  & > img {
+    width: 100%;
+  }
+  &_relative {
+    position: relative;
+    padding: 0;
+  }
+  &_medium {
+    width: rem(227);
+    height: rem(227);
+  }
+  &_small {
+    width: rem(227);
+    height: rem(227);
+  }
+  &_large {
+    width: rem(280);
+    height: rem(280);
+  }
+}
+
+.about-lumbers__line {
+  position: absolute;
+  bottom: 0;
+  width: rem(418);
+  left: rem(100);
+  svg {
+    width: 100%;
+  }
 }

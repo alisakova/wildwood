@@ -59,3 +59,28 @@
   font-weight: 500;
   margin-bottom: rem(65);
 }
+
+@media (max-width: 600px) {
+  .technologies {
+    margin-bottom: rem(80);
+    p {
+      margin-bottom: rem(20);
+    }
+  }
+  .technologies__block {
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    &_reverse {
+      .technologies__img {
+        margin: 0 auto;
+      }
+    }
+  }
+  .technologies__caption {
+    margin-bottom: rem(30);
+  }
+  .technologies__img {
+    margin: 0 auto;
+  }
+}

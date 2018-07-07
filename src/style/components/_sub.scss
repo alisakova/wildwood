@@ -34,10 +34,10 @@
     right: 0;
     transform: translateY(50%);
     border: {
-      left: 83px solid #998675;
-      right: 83px solid #998675;
-      bottom: 20px solid transparent;
-      top: 20px solid transparent;
+      left: rem(83) solid #998675;
+      right: rem(83) solid #998675;
+      bottom: rem(20) solid transparent;
+      top: rem(20) solid transparent;
     }
   }
 }
@@ -45,4 +45,19 @@
 .sub__text {
   // padding-top: rem(16);
   padding-bottom: rem(10);
+}
+
+@media (max-width: 540px) {
+  .sub__text-block {
+    min-width: rem(126);
+    max-width: rem(126);
+    height: rem(60);
+    font-size: rem(14);
+    &:after {
+      border: {
+        left-width: rem(63);
+        right-width: rem(63);
+      }
+    }
+  }
 }

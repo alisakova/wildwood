@@ -19,3 +19,42 @@
     left: 0;
   }
 }
+
+@media (max-width: 1530px) {
+  .main-page {
+    .logo {
+      left: rem(-40);
+    }
+  }
+}
+
+@media (max-width: 1440px) {
+  .main-page {
+    .logo {
+      left: rem(-95);
+    }
+  }
+}
+
+@media (max-width: 1080px) {
+  .main-page {
+    .logo {
+      left: 0;
+    }
+    .logo__icon {
+      width: rem(180);
+    }
+    .logo__info {
+      font-size: rem(14);
+      top: rem(120);
+    }
+  }
+}
+
+@media (max-width: 900px) {
+  .main-page {
+    .logo {
+      left: rem(20);
+    }
+  }
+}

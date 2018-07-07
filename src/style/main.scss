@@ -17,7 +17,7 @@ html {
 body {
 	display: block;
 	min-height: 100%;
-	min-width: 375px;
+	min-width: 420px;
 	margin: 0;
 	font: inherit;
 	font-size: 100%;
@@ -104,7 +104,13 @@ img {
 // 	}
 // }
 
-@media (max-width: 1080px) {
+@media (max-width: 1440px) {
+	html {
+		font-size: 14px;
+	}
+}
+
+@media (max-width: 1180px) {
 	html {
 		font-size: 12px;
 	}

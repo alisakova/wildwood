@@ -4,6 +4,7 @@ input {
 }
 
 .form__item {
+  width: 100%;
   &:not(:last-child) {
     margin-bottom: rem(38);
   }
@@ -50,4 +51,16 @@ input {
 
 .form__text {
   font-size: rem(28);
+}
+
+@media (max-width: 840px) {
+  .form__input {
+    font-size: rem(25);
+  }
+}
+
+@media (max-width: 660px) {
+  .form__input {
+    max-width: none;
+  }
 }

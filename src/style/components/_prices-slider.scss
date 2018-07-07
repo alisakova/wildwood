@@ -1,3 +1,13 @@
+%icons-slick {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-position: 100%;
+  color: #000;
+  position: relative;
+  z-index: 1;
+}
+
 .prices-slider {
   margin-bottom: rem(137);
 }
@@ -42,23 +52,13 @@
   }
 }
 
-%icons-slick {
-  display: block;
-  width: 100%;
-  height: 100%;
-  background-position: 100%;
-  color: #000;
-  position: relative;
-  z-index: 1;
-}
-
 .slick-prev {
   font-size: 0;
   left: rem(-45);
   &:before {
-    content: '<';
-    // background: url('../img/left-arrow.svg') no-repeat;
-    // background-size: 100% 100%;
+    content: '';
+    background: url('../img/slick-arrow.svg') no-repeat;
+    background-size: 100% 100%;
     @extend %icons-slick;
   }
 }
@@ -67,21 +67,19 @@
   font-size: 0;
   right: rem(-45);
   &:before {
-    content: '>';
-    // background: url('../img/right-arrow.svg') no-repeat;
-    // background-size: 100% 100%;
+    content: '';
+    background: url('../img/slick-arrow.svg') no-repeat;
+    background-size: 100% 100%;
+    transform: scale(-1);
     @extend %icons-slick;
   }
 }
 
 .slick-arrow {
-  width: rem(24);
-  height: rem(24);
+  width: rem(27);
+  height: rem(41);
   top: 50%;
   background: #fff;
-  border: 1px solid $orange;
-  border-radius: rem(4);
-  padding: rem(5);
   position: absolute;
   cursor: pointer;
   transition: border-color 250ms;
@@ -101,7 +99,7 @@
 
 .prices-slider__img {
   max-width: rem(345);
-  margin-bottom: rem(17);
+  margin: 0 auto rem(17);
 }
 
 .prices-slider__caption {
@@ -126,4 +124,13 @@
   font-weight: 500;
   color: $orange;
   letter-spacing: 0.4px;
+}
+
+@media (max-width: 968px) {
+  .slick-next {
+    right: 0;
+  }
+  .slick-prev {
+    left: 0;
+  }
 }
