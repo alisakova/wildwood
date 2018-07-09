@@ -5,7 +5,8 @@
   padding: rem(96 0 105);
   color: $light-brown;
   position: relative;
-  h1, h2 {
+  h1,
+  h2 {
     margin-bottom: rem(45);
     font-size: rem(36);
     text-align: left;
@@ -27,6 +28,20 @@
   &:last-child {
     max-width: rem(579);
     min-width: rem(579);
+  }
+  &_bordered {
+    min-height: rem(800);
+    position: relative;
+    &:after {
+      content: "";
+      background: $green;
+      height: 2px;
+      position: absolute;
+      width: 9999px;
+      display: block;
+      right: rem(46);
+      bottom: 0;
+    }
   }
 }
 
@@ -65,7 +80,18 @@
 .test__form {
   margin-bottom: rem(44);
   &_bordered {
+    position: relative;
     padding-bottom: rem(46);
+    &:after {
+      content: "";
+      background: $green;
+      height: 2px;
+      position: absolute;
+      width: 9999px;
+      display: block;
+      right: 0;
+      bottom: 0;
+    }
   }
   &_without-margin {
     margin-bottom: 0;
@@ -81,25 +107,35 @@
 .test__info {
   font-size: rem(28);
   line-height: 1.14;
-  position: relative;
   padding: {
     top: rem(43);
     bottom: rem(39);
   }
-  &:before, &:after {
-    content: '';
-    background: $green;
-    height: 2px;
-    position: absolute;
-    width: 100%;
-    display: block;
-
+  &_alt {
+    font-size: rem(30);
+    font-weight: 500;
+    color: $green;
+    border: 3px solid $green;
+    padding: rem(20 25 31 16);
   }
-  &:before {
-    top: 0;
-  }
-  &:after {
-    bottom: 0;
+  &_bordered {
+    position: relative;
+    &:before,
+    &:after {
+      content: "";
+      background: $green;
+      height: 2px;
+      position: absolute;
+      width: 9999px;
+      display: block;
+      right: 0;
+    }
+    &:before {
+      top: 0;
+    }
+    &:after {
+      bottom: 0;
+    }
   }
 }
 
@@ -131,7 +167,7 @@
   &_bordered {
     margin-bottom: rem(27);
     &:after {
-      content: '';
+      content: "";
       height: 2px;
       max-width: rem(440);
       width: 100%;

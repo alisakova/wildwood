@@ -60,18 +60,18 @@
   &_small {
     width: rem(95);
     height: rem(92);
-    background: gray;
     margin: 0 0 rem(42);
   }
   &_medium {
     width: rem(124);
     height: rem(121);
-    background: gray;
   }
   &_large {
     width: rem(157);
     height: rem(154);
-    background: gray;
+  }
+  img {
+    width: 100%;
   }
 }
 
