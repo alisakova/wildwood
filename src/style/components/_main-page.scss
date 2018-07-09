@@ -58,3 +58,11 @@
     }
   }
 }
+
+@media (max-width: 640px) {
+  .main-page {
+    .footer__logo {
+      left: 0;
+    }
+  }
+}

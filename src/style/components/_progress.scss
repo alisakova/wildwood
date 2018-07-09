@@ -121,3 +121,15 @@
   width: rem(60);
   background: $green;
 }
+
+@media (max-width: 1180px) {
+  .progress {
+    margin-left: rem(300);
+  }
+}
+
+@media (max-width: 640px) {
+  .progress {
+    margin-left: rem(250);
+  }
+}

@@ -15,3 +15,21 @@
   top: rem(105);
   left: rem(27);
 }
+
+@media (max-width: 1440px) {
+  .test {
+    .logo__info {
+      top: rem(140);
+      left: rem(48);
+    }
+  }
+}
+
+@media (max-width: 1180px) {
+  .test {
+    .logo {
+      width: rem(200);
+      left: 0;
+    }
+  }
+}

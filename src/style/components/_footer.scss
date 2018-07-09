@@ -59,3 +59,15 @@
     margin-bottom: rem(26);
   }
 }
+
+@media (max-width: 640px) {
+  .footer__links {
+    padding: {
+      left: 0;
+      right: 0;
+    }
+  }
+  .footer__contacts {
+    padding-right: rem(20);
+  }
+}

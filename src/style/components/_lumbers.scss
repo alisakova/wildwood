@@ -79,3 +79,17 @@
   font-size: rem(22);
   line-height: 1.45;
 }
+
+@media (max-width: 920px) {
+  .lumbers__item {
+    padding: 0 rem(30);
+  }
+  .lumbers__img {
+    &_small {
+      margin: 0 auto rem(42);
+    }
+  }
+  .lumbers__size {
+    text-align: center;
+  }
+}

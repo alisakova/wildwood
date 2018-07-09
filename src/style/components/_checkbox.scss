@@ -23,8 +23,8 @@
   position: absolute;
   top: 0;
   left: 0;
-  height: rem(38);
-  width: rem(38);
+  height: rem(41);
+  width: rem(41);
   border-radius: rem(10);
   border: 2px solid $green;
 }
@@ -38,6 +38,7 @@
 .checkbox .checkbox__checkmark {
   &:after {
     background: url('../img/checkmark.svg') no-repeat center center;
+    background-size: cover;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);

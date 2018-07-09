@@ -11,3 +11,13 @@
     width: rem(109);
   }
 }
+
+@media (max-width: 640px) {
+  .test-fifth {
+    .test__info {
+      &:after, &:before {
+        width: 100%;
+      }
+    }
+  }
+}

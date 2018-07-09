@@ -134,3 +134,9 @@
     left: 0;
   }
 }
+
+@media (max-width: 640px) {
+  .prices-slider {
+    margin-bottom: rem(80);
+  }
+}

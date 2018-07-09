@@ -40,12 +40,23 @@
   color: $yellow;
   font-weight: 500;
   letter-spacing: 0.6px;
-  background: url('../img/yellow.svg') no-repeat;
-  background-size: contain;
-  background-position: center;
   margin-bottom: rem(119);
   text-align: left;
-  padding: rem(32 45 29);
+  position: relative;
+  img {
+    width: 100%;
+  }
+}
+
+.application__text {
+  padding: {
+    left: rem(54);
+    right: rem(54);
+  };
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  position: absolute;
 }
 
 @media (max-width: 1700px) {
@@ -54,7 +65,11 @@
   }
 }
 
-
+@media (max-width: 968px) {
+  .application__text-container {
+    font-size: rem(32);
+  }
+}
 
 @media (max-width: 660px) {
   .application__container {
@@ -75,9 +90,6 @@
     width: 100%;
   }
   .application__text-container {
-    font-size: rem(50);
-  }
-  .application__text {
-    padding: rem(60 70 60 45);
+    font-size: rem(40);
   }
 }

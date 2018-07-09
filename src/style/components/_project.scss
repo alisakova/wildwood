@@ -23,7 +23,6 @@
 
 .project__divider {
   width: rem(18);
-  height: rem(429);
   background: gray;
   margin: {
     left: rem(60);
@@ -58,5 +57,23 @@
   align-items: center;
   video {
     max-width: 100%;
+  }
+}
+
+@media (max-width: 640px) {
+  .project {
+    margin-bottom: rem(80);
+  }
+  .project__container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .project__descr {
+    max-width: none;
+    margin-bottom: rem(45);
+  }
+  .project__info {
+    margin-bottom: rem(45);
   }
 }

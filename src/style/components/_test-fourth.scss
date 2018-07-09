@@ -29,3 +29,13 @@
     max-width: none;
   }
 }
+
+@media (max-width: 920px) {
+  .test-fourth {
+    .test__col {
+      &:last-child {
+        min-width: 30rem;
+      }
+    }
+  }
+}

@@ -8,6 +8,14 @@ input {
   &:not(:last-child) {
     margin-bottom: rem(38);
   }
+  &_flex {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    .checkbox {
+      margin-right: rem(15);
+    }
+  }
 }
 
 .form__input {
@@ -51,6 +59,20 @@ input {
 
 .form__text {
   font-size: rem(28);
+}
+
+.form__descr {
+  font-size: rem(18);
+  font-weight: 500;
+  padding: {
+    bottom: rem(7);
+    left: rem(20);
+  };
+  border-bottom: 1px solid $green;
+  display: none;
+  &.active {
+    display: block;
+  }
 }
 
 @media (max-width: 840px) {

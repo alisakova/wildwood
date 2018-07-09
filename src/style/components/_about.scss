@@ -23,7 +23,7 @@
     left: 0;
     background: $green;
     opacity: 0.9;
-    width: rem(927);
+    width: 100%;
     max-width: rem(927);
     height: 100%;
     display: block;
@@ -36,4 +36,10 @@
   position: relative;
   padding: rem(64) rem(98) rem(86) 0;
   max-width: rem(550);
+}
+
+@media (max-width: 640px) {
+  .about {
+    margin-bottom: rem(80);
+  }
 }

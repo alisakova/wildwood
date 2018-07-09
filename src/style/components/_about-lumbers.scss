@@ -36,6 +36,7 @@
   padding: rem(25);
   margin-bottom: rem(30);
   min-height: rem(280);
+  display: flex;
   & > img {
     width: 100%;
   }
@@ -64,5 +65,20 @@
   left: rem(100);
   svg {
     width: 100%;
+  }
+}
+
+@media (max-width: 640px) {
+  .about-lumbers {
+    margin-bottom: rem(80);
+  }
+}
+
+@media (max-width: 540px) {
+  .about-lumbers__list {
+    flex-direction: column;
+  }
+  .about-lumbers__img {
+    min-height: 0;
   }
 }
