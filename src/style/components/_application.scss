@@ -6,6 +6,10 @@
     }
     margin-bottom: 0;
     background: $bright-yellow;
+    transition: background-color 250ms;
+    &:hover, &:active, &:focus {
+      background-color: $yellow;
+    }
   }
 }
 

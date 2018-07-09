@@ -22,6 +22,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  transition: border-color 250ms;
   &_next {
     flex-direction: row-reverse;
     .test-button__icon {
@@ -33,6 +34,9 @@
     .test-button__icon {
       margin-right: rem(24);
     }
+  }
+  &:hover, &:active, &:focus {
+    border-color: darken($green, 20%);
   }
 }
 

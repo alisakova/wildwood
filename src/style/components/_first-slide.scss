@@ -43,12 +43,21 @@
   font-weight: 500;
   font-size: rem(22);
   letter-spacing: 0.2px;
+  transition: all 250ms;
+  &:hover, &:active, &:focus {
+    background: #fff;
+    color: $brown;
+  }
   &:first-child {
     margin-bottom: rem(16);
   }
   &_gray-bg {
     background: #fff;
     color: $brown;
+    &:hover, &:active, &:focus {
+      background: transparent;
+      color: #fff;
+    }
   }
 }
 
@@ -76,6 +85,10 @@
   margin-bottom: rem(15);
   .button {
     margin-bottom: 0;
+    transition: background-color 250ms;
+    &:hover, &:active, &:focus {
+      background-color: $yellow;
+    }
   }
 }
 

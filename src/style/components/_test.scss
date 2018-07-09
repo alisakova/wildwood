@@ -207,15 +207,22 @@
   font-size: rem(26);
   letter-spacing: 0.3px;
   text-align: center;
+  transition: all 250ms;
   &_with-bg {
     border: none;
     background: $yellow;
+    &:hover, &:active, &:focus {
+      background-color: $bright-yellow;
+    }
   }
   &:not(:last-child) {
     margin-bottom: rem(34);
   }
   &:last-child {
     margin-bottom: rem(17);
+  }
+  &:hover, &:active, &:focus {
+    border-color: darken($green, 20%);
   }
 }
 
@@ -297,5 +304,28 @@
   }
   .test__contact-buttons {
     align-items: center;
+  }
+  .test__info-text {
+    max-width: none;
+  }
+  .test__info {
+    &_bordered {
+      &:after, &:before {
+        width: 100%;
+      }
+    }
+  }
+  .test__form {
+    &_bordered {
+      &:after, &:before {
+        width: 100%;
+      }
+    }
+  }
+  .test__descr {
+    padding: {
+      left: rem(22);
+      right: rem(22);
+    }
   }
 }
