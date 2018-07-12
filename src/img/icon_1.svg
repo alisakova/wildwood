@@ -1,0 +1,33 @@
+<svg width="225" height="227" viewBox="0 0 225 227" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="4.05" cy="4.05" r="3.55" transform="translate(17.45 152.45)" stroke="white"/>
+<circle cx="4.05" cy="4.05" r="3.55" transform="translate(17.45 179.45)" stroke="white"/>
+<circle cx="4.05" cy="4.05" r="3.55" transform="translate(17.45 206.45)" stroke="white"/>
+<circle cx="13.5" cy="13.5" r="12" transform="translate(8 143)" stroke="white" stroke-width="3"/>
+<circle cx="13.5" cy="13.5" r="12" transform="translate(8 170)" stroke="white" stroke-width="3"/>
+<circle cx="13.5" cy="13.5" r="12" transform="translate(8 197)" stroke="white" stroke-width="3"/>
+<circle cx="4.05" cy="4.05" r="3.55" transform="translate(174.45 152.45)" stroke="white"/>
+<circle cx="4.05" cy="4.05" r="3.55" transform="translate(174.45 179.45)" stroke="white"/>
+<circle cx="4.05" cy="4.05" r="3.55" transform="translate(174.45 206.45)" stroke="white"/>
+<circle cx="13.5" cy="13.5" r="12" transform="translate(165 143)" stroke="white" stroke-width="3"/>
+<circle cx="13.5" cy="13.5" r="12" transform="translate(165 170)" stroke="white" stroke-width="3"/>
+<circle cx="13.5" cy="13.5" r="12" transform="translate(165 197)" stroke="white" stroke-width="3"/>
+<path d="M0 7.96025V8.52152C0 11.2829 2.23858 13.5215 5 13.5215H43.1541C46.5304 13.5215 48.2901 9.50245 46 7.02152C41.2 1.82152 31 3.85485 26.5 5.52152C19.0151 -3.38912 8.06302 0.271822 1.99236 4.1231C0.692685 4.94763 0 6.42109 0 7.96025Z" transform="translate(170 211)" fill="white" stroke="white" stroke-width="3"/>
+<path d="M184.5 191.5V115.501C184.5 112.075 180.537 110.17 177.862 112.31C176.035 113.772 173.355 113.403 171.99 111.501L96.0504 5.64605C94.0592 2.87034 89.9326 2.86444 87.9334 5.63444L11.34 111.758C10.0879 113.493 7.61065 113.765 6.01157 112.344C3.68223 110.273 0 111.92 0 115.036V141.5V156V167.5V191.5C0 194.261 2.23858 196.5 5 196.5H179.5C182.261 196.5 184.5 194.261 184.5 191.5Z" transform="translate(7 27.5)" stroke="white" stroke-width="4"/>
+<path d="M83.9934 9.52219L0.372872 126.326C-2.13582 129.83 -1.4196 134.7 2.01258 137.324C3.0153 138.09 3.91935 138.779 4.71493 139.384C8.20277 142.037 13.1858 141.425 15.8644 137.876C27.1958 122.863 68.3538 68.2057 92.8834 33.941C93.6931 32.8099 95.3429 32.8082 96.1544 33.9292C119.69 66.4392 162.331 122.93 173.734 138.012C176.343 141.462 181.157 142.154 184.655 139.721L188.022 137.379C191.703 134.818 192.56 129.732 189.923 126.106L105.077 9.4434C99.8619 2.27203 89.1552 2.31205 83.9934 9.52219Z" transform="translate(5)" stroke="white" stroke-width="6"/>
+<rect x="2" y="2" width="26" height="26" rx="2" transform="translate(84 71)" stroke="white" stroke-width="4"/>
+<line y1="-2" x2="30" y2="-2" transform="translate(97 71) rotate(90)" stroke="white" stroke-width="4"/>
+<line y1="-2" x2="30" y2="-2" transform="translate(84 86)" stroke="white" stroke-width="4"/>
+<rect width="41" height="11" rx="5" transform="translate(80 104)" fill="white"/>
+<path d="M33 10.5159H0C5.2 0.915927 13.1667 4.1826 16.5 7.01593C16.5 7.01593 17 0.415928 25 0.015928C33 -0.384072 33.6667 6.84926 33 10.5159Z" transform="translate(83 94)" fill="#C4DF9B"/>
+<path d="M23.2384 4.38853L1.20372 30.0957C0.426961 31.0019 0 32.1494 0 33.343V73.5064C0 76.2678 2.23858 78.5 5 78.5H49.5C52.2614 78.5 54.5 76.2614 54.5 73.5V33.3755C54.5 32.1663 54.0618 30.9981 53.2666 30.0872L30.8013 4.35419C28.7968 2.05814 25.222 2.07437 23.2384 4.38853Z" transform="translate(72 132.5)" stroke="white" stroke-width="4"/>
+<rect x="2" y="2" width="56" height="6" rx="3" transform="translate(69 214)" fill="white" stroke="white" stroke-width="4"/>
+<circle cx="4" cy="4" r="2.5" transform="translate(82 181)" stroke="white" stroke-width="3"/>
+<circle cx="30" cy="30" r="30" transform="translate(165 137)" fill="#C4DF9B"/>
+<circle cx="22" cy="22" r="22" transform="translate(173 104)" fill="#C4DF9B"/>
+<circle cx="17" cy="17" r="17" transform="translate(178 78)" fill="#C4DF9B"/>
+<path d="M0 0V113" transform="translate(192 101)" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M0 0L9 15" transform="translate(183 114.5)" stroke="white" stroke-linecap="round"/>
+<path d="M8 0L0 12" transform="translate(192.5 123.5)" stroke="white" stroke-linecap="round"/>
+<path d="M0 0L12 19" transform="translate(180 160)" stroke="white" stroke-linecap="round"/>
+<path d="M13 0L0 17.5" transform="translate(192.5 168)" stroke="white" stroke-linecap="round"/>
+</svg>

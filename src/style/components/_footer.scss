@@ -28,10 +28,14 @@
 }
 
 .footer__social-icon {
-  padding: rem(10 6);
+  padding: rem(6);
   border: 1px solid transparent;
+  i {
+    font-size: rem(25);
+    opacity: 0.7;
+  }
   &:hover, &:active, &:focus {
-    border-color: #fff;
+    border-color: rgba(255, 255, 255, 0.7);
   }
 }
 
@@ -81,6 +85,14 @@
   transition: border-bottom-color 250ms;
   &:hover, &:active, &:focus {
     border-bottom-color: #fff;
+  }
+}
+
+@media (max-width: 1080px) {
+  .footer__social-icon {
+    i {
+      font-size: inherit;
+    }
   }
 }
 

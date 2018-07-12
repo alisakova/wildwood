@@ -1,0 +1,41 @@
+<svg width="287" height="248" viewBox="0 0 287 248" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="15" cy="15" r="15" transform="translate(23 23)" fill="white"/>
+<line x1="1.5" y1="-1.5" x2="18.5" y2="-1.5" transform="translate(38) rotate(90)" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="1.5" y1="-1.5" x2="18.5" y2="-1.5" transform="translate(38 57) rotate(90)" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="1.5" y1="-1.5" x2="18.5" y2="-1.5" transform="translate(76 38) rotate(-180)" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="1.5" y1="-1.5" x2="18.5" y2="-1.5" transform="translate(20 38) rotate(-180)" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="1.5" y1="-1.5" x2="8.5" y2="-1.5" transform="translate(24.1421 23.1421) rotate(-135)" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="1.5" y1="-1.5" x2="8.5" y2="-1.5" transform="translate(60.0711 60.071) rotate(-135)" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="1.5" y1="-1.5" x2="8.5" y2="-1.5" transform="translate(24.2646 50) rotate(135.498)" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="1.5" y1="-1.5" x2="8.5" y2="-1.5" transform="translate(60.1323 16) rotate(135.498)" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="2" y1="-2" x2="38" y2="-2" transform="translate(260 18) rotate(90)" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="2" y1="-2" x2="38" y2="-2" transform="translate(280 47) rotate(-150)" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="2" y1="-2" x2="38" y2="-2" transform="translate(280 27) rotate(150)" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M0 0L6 4.5L11 0" transform="translate(256 15)" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M0 0L6 4.5L11 0" transform="translate(268 61.5) rotate(-180)" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M0 0L6 4.5L11 0" transform="translate(284.96 47.182) rotate(135)" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M0 0L6 4.5L11 0" transform="translate(239 32.9669) rotate(-64.9691)" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M0 0L6 4.5L11 0" transform="translate(281.285 23) rotate(72.2159)" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M0 0L6 4.5L11 0" transform="translate(246.735 55.4524) rotate(-127.753)" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="4.05" cy="4.05" r="3.55" transform="translate(68.45 174.45)" stroke="white"/>
+<circle cx="4.05" cy="4.05" r="3.55" transform="translate(68.45 201.45)" stroke="white"/>
+<circle cx="4.05" cy="4.05" r="3.55" transform="translate(68.45 228.45)" stroke="white"/>
+<circle cx="13.5" cy="13.5" r="12" transform="translate(59 165)" stroke="white" stroke-width="3"/>
+<circle cx="13.5" cy="13.5" r="12" transform="translate(59 192)" stroke="white" stroke-width="3"/>
+<circle cx="13.5" cy="13.5" r="12" transform="translate(59 219)" stroke="white" stroke-width="3"/>
+<circle cx="4.05" cy="4.05" r="3.55" transform="translate(223.45 174.45)" stroke="white"/>
+<circle cx="4.05" cy="4.05" r="3.55" transform="translate(223.45 201.45)" stroke="white"/>
+<circle cx="4.05" cy="4.05" r="3.55" transform="translate(223.45 228.45)" stroke="white"/>
+<circle cx="13.5" cy="13.5" r="12" transform="translate(214 165)" stroke="white" stroke-width="3"/>
+<circle cx="13.5" cy="13.5" r="12" transform="translate(214 192)" stroke="white" stroke-width="3"/>
+<circle cx="13.5" cy="13.5" r="12" transform="translate(214 219)" stroke="white" stroke-width="3"/>
+<path d="M184.5 191.5V117.322C184.5 113.958 180.96 111.77 177.951 113.274C175.963 114.269 173.547 113.671 172.251 111.865L96.0504 5.64605C94.0592 2.87034 89.9326 2.86444 87.9334 5.63444L10.9223 112.337C9.77855 113.921 7.73795 114.579 5.88389 113.961C2.98925 112.996 0 115.145 0 118.196V141.5V156V167.5V191.5C0 194.261 2.23858 196.5 5 196.5H179.5C182.261 196.5 184.5 194.261 184.5 191.5Z" transform="translate(58 49.5)" stroke="white" stroke-width="4"/>
+<path d="M83.9934 9.52219L0.372872 126.326C-2.13582 129.83 -1.4196 134.7 2.01258 137.324C3.0153 138.09 3.91935 138.779 4.71493 139.384C8.20277 142.037 13.1858 141.425 15.8644 137.876C27.1958 122.863 68.3538 68.2057 92.8834 33.941C93.6931 32.8099 95.3429 32.8082 96.1544 33.9292C119.69 66.4392 162.331 122.93 173.734 138.012C176.343 141.462 181.157 142.154 184.655 139.721L188.022 137.379C191.703 134.818 192.56 129.732 189.923 126.106L105.077 9.4434C99.8619 2.27203 89.1552 2.31205 83.9934 9.52219Z" transform="translate(56 22)" stroke="white" stroke-width="6"/>
+<rect x="2" y="2" width="26" height="26" rx="2" transform="translate(135 93)" stroke="white" stroke-width="4"/>
+<line y1="-2" x2="30" y2="-2" transform="translate(148 93) rotate(90)" stroke="white" stroke-width="4"/>
+<line y1="-2" x2="30" y2="-2" transform="translate(135 108)" stroke="white" stroke-width="4"/>
+<rect width="41" height="11" rx="5" transform="translate(130 126)" fill="white"/>
+<path d="M23.2384 4.38853L1.20372 30.0957C0.426961 31.0019 0 32.1494 0 33.343V73.5064C0 76.2678 2.23858 78.5 5 78.5H49.5C52.2614 78.5 54.5 76.2614 54.5 73.5V33.3755C54.5 32.1663 54.0618 30.9981 53.2666 30.0872L30.8013 4.35419C28.7968 2.05814 25.222 2.07437 23.2384 4.38853Z" transform="translate(123 154.5)" stroke="white" stroke-width="4"/>
+<rect x="2" y="2" width="56" height="6" rx="3" transform="translate(120 236)" fill="white" stroke="white" stroke-width="4"/>
+<circle cx="4" cy="4" r="2.5" transform="translate(133 203)" stroke="white" stroke-width="3"/>
+</svg>

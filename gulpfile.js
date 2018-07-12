@@ -24,14 +24,15 @@ var path = {
     js: "build/js/",
     css: "build/css/",
     img: "build/img/",
-    fonts: "build/fonts/"
+    fonts: "build/font/"
   },
   src: {
     //Пути откуда брать исходники
     html: "src/**/**/*.html",
     js: "src/js/*.js",
     style: "src/style/main.scss",
-    img: ["src/img/*.*", "src/img/**/*.*"]
+    img: ["src/img/*.*", "src/img/**/*.*"],
+    fonts: "src/font/*.*"
   },
   watch: {
     //За чем наблюдать
@@ -78,6 +79,10 @@ gulp.task("html:build", function() {
     .on("error", log)
     .pipe(gulp.dest(path.build.html))
     .pipe(reload({ stream: true }));
+});
+
+gulp.task("fonts", function() {
+  gulp.src(path.src.fonts).pipe(gulp.dest(path.build.fonts));
 });
 
 //собрать js
@@ -138,7 +143,7 @@ gulp.task("watch", function() {
 });
 
 //cобрать все
-gulp.task("build", ["html:build", "js:build", "style:build", "image:build"]);
+gulp.task("build", ["html:build", "js:build", "style:build", "image:build", "fonts"]);
 
 gulp.task("webserver", function() {
   browserSync(config);

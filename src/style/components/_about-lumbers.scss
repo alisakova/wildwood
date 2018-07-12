@@ -11,8 +11,29 @@
 
 .about-lumbers__container {
   background: #f1fbd8;
+  position: relative;
   .container {
     max-width: rem(1180);
+  }
+  &:before {
+    content: '';
+    position: absolute;
+    background: url('../img/green_lines.png') no-repeat;
+    width: 100%;
+    height: 100%;
+    max-height: rem(350);
+    top: 0;
+    left: 0;
+  }
+  &:after {
+    content: '';
+    position: absolute;
+    background: #f1fbd8;
+    width: 100%;
+    height: rem(77);
+    bottom: 0;
+    left: 0;
+    z-index: 2;
   }
 }
 
@@ -28,6 +49,8 @@
 .about-lumbers__item {
   text-align: center;
   padding-bottom: rem(29);
+  position: relative;
+  z-index: 5;
 }
 
 .about-lumbers__img {
@@ -36,8 +59,21 @@
   min-height: rem(280);
   display: flex;
   position: relative;
+  &:after {
+    content: '';
+    background: #f1fbd8;
+    border-radius: 50%;
+    z-index: 1;
+    width: 100%;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    position: absolute;
+  }
   & > img {
     width: 100%;
+    position: relative;
+    z-index: 2;
   }
   &_no-padding {
     padding: 0;
@@ -52,6 +88,9 @@
   &_small {
     width: rem(227);
     height: rem(227);
+    &:after {
+      height: rem(227);
+    }
   }
   &_large {
     width: rem(280);
@@ -62,25 +101,6 @@
   }
 }
 
-.about-lumbers__img_medium,
-.about-lumbers__img_large {
-  img {
-    position: relative;
-    z-index: 2;
-  }
-  &:after {
-    content: '';
-    background: #f1fbd8;
-    border-radius: 50%;
-    z-index: 1;
-    width: 100%;
-    left: 0;
-    top: 50%;
-    transform: translateY(-50%);
-    position: absolute;
-  }
-}
-
 .about-lumbers__line {
   position: absolute;
   bottom: 0;
@@ -88,6 +108,14 @@
   left: rem(100);
   svg {
     width: 100%;
+  }
+}
+
+@media (min-width: 1440px) {
+  .about-lumbers__container {
+    &:before {
+      background-size: 150%;
+    }
   }
 }
 
@@ -103,5 +131,13 @@
   }
   .about-lumbers__img {
     min-height: 0;
+  }
+  .about-lumbers__container {
+    &:after {
+      display: none;
+    }
+    &:before {
+      display: none;
+    }
   }
 }
