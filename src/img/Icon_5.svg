@@ -1,0 +1,38 @@
+<svg width="334" height="164" viewBox="0 0 334 164" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="4.05" cy="4.05" r="3.55" transform="translate(64.45 37.45)" stroke="white"/>
+<circle cx="4.05" cy="4.05" r="3.55" transform="translate(64.45 64.45)" stroke="white"/>
+<circle cx="4.05" cy="4.05" r="3.55" transform="translate(64.45 91.45)" stroke="white"/>
+<circle cx="13.5" cy="13.5" r="12" transform="translate(55 28)" stroke="white" stroke-width="3"/>
+<circle cx="13.5" cy="13.5" r="12" transform="translate(55 55)" stroke="white" stroke-width="3"/>
+<circle cx="13.5" cy="13.5" r="12" transform="translate(55 82)" stroke="white" stroke-width="3"/>
+<circle cx="4.05" cy="4.05" r="3.55" transform="translate(256.45 37.45)" stroke="white"/>
+<circle cx="4.05" cy="4.05" r="3.55" transform="translate(256.45 64.45)" stroke="white"/>
+<circle cx="4.05" cy="4.05" r="3.55" transform="translate(256.45 91.45)" stroke="white"/>
+<circle cx="13.5" cy="13.5" r="12" transform="translate(247 28)" stroke="white" stroke-width="3"/>
+<circle cx="13.5" cy="13.5" r="12" transform="translate(247 55)" stroke="white" stroke-width="3"/>
+<circle cx="13.5" cy="13.5" r="12" transform="translate(247 82)" stroke="white" stroke-width="3"/>
+<rect x="2" y="2" width="222" height="108" rx="3" transform="translate(51)" stroke="white" stroke-width="4"/>
+<rect x="1.5" y="1.5" width="156" height="67" rx="3.5" transform="translate(85 30)" stroke="white" stroke-width="3"/>
+<line y1="-1.5" x2="158.681" y2="-1.5" transform="translate(85.1094 50.7892)" stroke="white" stroke-width="3"/>
+<line y1="-1.5" x2="158.681" y2="-1.5" transform="translate(85.1094 68.3027)" stroke="white" stroke-width="3"/>
+<line y1="-1.5" x2="158.681" y2="-1.5" transform="translate(85.1094 84.0649)" stroke="white" stroke-width="3"/>
+<path d="M47.9531 0L0 48.1622" transform="translate(2 113.838)" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M0 0V24.5189" transform="translate(164 114)" stroke="white" stroke-width="4" stroke-linecap="round"/>
+<path d="M0 0L17.4375 17.5135" transform="translate(278 112)" stroke="white" stroke-width="4" stroke-linecap="round"/>
+<circle cx="30" cy="30" r="30" transform="translate(274 62)" fill="#C4DF9B"/>
+<circle cx="22" cy="22" r="22" transform="translate(282 29)" fill="#C4DF9B"/>
+<circle cx="17" cy="17" r="17" transform="translate(287 3)" fill="#C4DF9B"/>
+<path d="M0 0V113" transform="translate(301 26)" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M0 0L9 15" transform="translate(292 39.5)" stroke="white" stroke-linecap="round"/>
+<path d="M8 0L0 12" transform="translate(301.5 48.5)" stroke="white" stroke-linecap="round"/>
+<path d="M0 0L12 19" transform="translate(289 85)" stroke="white" stroke-linecap="round"/>
+<path d="M13 0L0 17.5" transform="translate(301.5 93)" stroke="white" stroke-linecap="round"/>
+<ellipse cx="21.5" cy="21.3971" rx="21.5" ry="21.3971" transform="translate(246 84.0809)" fill="#C4DF9B"/>
+<ellipse cx="15.7667" cy="15.6912" rx="15.7667" ry="15.6912" transform="translate(251.733 60.5441)" fill="#C4DF9B"/>
+<ellipse cx="12.1833" cy="12.125" rx="12.1833" ry="12.125" transform="translate(255.317 42)" fill="#C4DF9B"/>
+<path d="M0 0V80.5956" transform="translate(265.35 58.4044)" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M0 0L6.45 10.6985" transform="translate(258.9 68.0331)" stroke="white" stroke-linecap="round"/>
+<path d="M5.73333 0L0 8.55882" transform="translate(265.708 74.4522)" stroke="white" stroke-linecap="round"/>
+<path d="M0 0L8.6 13.5515" transform="translate(256.75 100.485)" stroke="white" stroke-linecap="round"/>
+<path d="M9.31667 0L0 12.4816" transform="translate(265.708 106.191)" stroke="white" stroke-linecap="round"/>
+</svg>
