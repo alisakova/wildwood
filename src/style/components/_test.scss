@@ -212,6 +212,7 @@
     border: none;
     background: $yellow;
     color: $light-brown;
+    text-align: left;
     &:hover, &:active, &:focus {
       background-color: $bright-yellow;
     }

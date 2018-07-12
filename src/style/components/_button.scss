@@ -59,3 +59,14 @@
 .test-button__icon {
   max-width: rem(15);
 }
+
+.button_with-icon {
+  span {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  i {
+    padding-right: rem(15);
+  }
+}
