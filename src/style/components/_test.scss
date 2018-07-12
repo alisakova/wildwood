@@ -211,6 +211,7 @@
   &_with-bg {
     border: none;
     background: $yellow;
+    color: $light-brown;
     &:hover, &:active, &:focus {
       background-color: $bright-yellow;
     }

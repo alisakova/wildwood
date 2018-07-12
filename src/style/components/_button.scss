@@ -9,6 +9,22 @@
   padding: rem(12 34 12);
   background: rgba(255, 245, 104, 0.7);
   margin-bottom: rem(25);
+  position: relative;
+  &:after {
+    content: '';
+    background: url('../img/button.png') no-repeat;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    border-radius: rem(10);
+  }
+  span {
+    position: relative;
+    z-index: 2;
+  }
 }
 
 .test-button {

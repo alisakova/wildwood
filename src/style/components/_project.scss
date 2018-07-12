@@ -23,7 +23,7 @@
 
 .project__divider {
   width: rem(18);
-  background: gray;
+  background: url('../img/vert_1.png') no-repeat;
   margin: {
     left: rem(60);
     right: rem(37);
@@ -75,5 +75,8 @@
   }
   .project__info {
     margin-bottom: rem(45);
+  }
+  .project__divider {
+    display: none;
   }
 }

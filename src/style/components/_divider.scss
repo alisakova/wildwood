@@ -7,16 +7,7 @@
 .divider-block {
   height: rem(52);
   width: 100%;
-  background: $green;
+  background: url('../img/divider-block.png') no-repeat;
   margin-bottom: rem(63);
   position: relative;
-  // &:after {
-  //   content: '';
-  //   position: absolute;
-  //   top: 0;
-  //   bottom: 0;
-  //   left: 0;
-  //   width: 100%;
-  //   background: url('../img/patt_2.png') repeat-x;
-  // }
 }

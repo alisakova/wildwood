@@ -41,6 +41,21 @@
   align-items: flex-start;
   padding: rem(86 83 146);
   width: 100%;
+  position: relative;
+  &:after, &:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    background: url('../img/footer.png') no-repeat;
+    height: 100%;
+    width: rem(14);
+  }
+  &:after {
+    right: 0;
+  }
+  &:before {
+    left: 0;
+  }
 }
 
 .footer__col {
@@ -74,6 +89,9 @@
     padding: {
       left: 0;
       right: 0;
+    }
+    &:after, &:before {
+      display: none;
     }
   }
   .footer__contacts {
