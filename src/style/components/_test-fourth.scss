@@ -10,6 +10,7 @@
   }
   .choice__item {
     min-width: rem(66);
+    max-width: rem(66);
     padding: {
       left: rem(5);
       right: rem(5);
@@ -27,6 +28,25 @@
   }
   .test__info-text {
     max-width: none;
+    color: $test-green;
+    font-weight: 500;
+  }
+}
+
+@media (max-width: 1440px) {
+  .test-fourth {
+    .choice__img {
+      max-height: none;
+    }
+    .choice__item {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      &_technology {
+        display: block;
+        align-self: center;
+      }
+    }
   }
 }
 

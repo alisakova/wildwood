@@ -14,6 +14,12 @@
   .checkbox__text {
     font-size: rem(28);
   }
+  .checkbox__checkmark {
+    border-color: $test-green;
+    &:after {
+      background-image: url('../img/checkmark-test.svg');
+    }
+  }
   .form__item {
     &:not(:last-child) {
       margin-bottom: rem(31);
@@ -35,7 +41,7 @@
     width: 100%;
     &:after {
       content: "";
-      background: $green;
+      background: $test-green;
       height: 2px;
       position: absolute;
       width: 9999px;
@@ -47,7 +53,7 @@
 }
 
 .test__descr {
-  border: 2px solid $green;
+  border: 2px solid $test-green;
   padding: rem(35 22 21 35);
   margin-bottom: rem(39);
   min-height: rem(800);
@@ -55,6 +61,11 @@
     position: relative;
     display: flex;
     align-items: flex-end;
+  }
+  &_сolumn {
+    flex-direction: column;
+    align-items: center;
+    padding-top: rem(222);
   }
   &_flex {
     display: flex;
@@ -78,6 +89,15 @@
   }
 }
 
+.test__descr-icon {
+  max-width: rem(172);
+  min-width: rem(172);
+  margin: 0 auto rem(84);
+  img {
+    width: 100%;
+  }
+}
+
 .test__form {
   margin-bottom: rem(44);
   &_bordered {
@@ -85,7 +105,7 @@
     padding-bottom: rem(46);
     &:after {
       content: "";
-      background: $green;
+      background: $test-green;
       height: 2px;
       position: absolute;
       width: 9999px;
@@ -115,8 +135,8 @@
   &_alt {
     font-size: rem(30);
     font-weight: 500;
-    color: $green;
-    border: 3px solid $green;
+    color: $test-green;
+    border: 3px solid $test-green;
     padding: rem(20 25 31 16);
   }
   &_bordered {
@@ -124,7 +144,7 @@
     &:before,
     &:after {
       content: "";
-      background: $green;
+      background: $test-green;
       height: 2px;
       position: absolute;
       width: 9999px;
@@ -172,7 +192,7 @@
       height: 2px;
       max-width: rem(440);
       width: 100%;
-      background: $green;
+      background: $test-green;
       margin-top: rem(20);
       display: block;
     }
@@ -180,8 +200,8 @@
 }
 
 .test__note {
-  border: 1px solid $green;
-  color: $green;
+  border: 1px solid $test-green;
+  color: $test-green;
 }
 
 .test__text {
@@ -199,7 +219,7 @@
   display: inline-block;
   border-radius: 10px;
   background: #fff;
-  border: 2px solid $green;
+  border: 2px solid $test-green;
   padding: rem(13) rem(20) rem(14);
   min-width: rem(300);
   width: auto;
@@ -224,7 +244,7 @@
     margin-bottom: rem(17);
   }
   &:hover, &:active, &:focus {
-    border-color: darken($green, 20%);
+    border-color: lighten($test-green, 20%);
   }
 }
 
@@ -329,5 +349,8 @@
       left: rem(22);
       right: rem(22);
     }
+  }
+  .test__descr_сolumn {
+    padding-top: rem(40);
   }
 }

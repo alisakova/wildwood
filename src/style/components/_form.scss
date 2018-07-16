@@ -68,7 +68,7 @@ input {
     bottom: rem(7);
     left: rem(20);
   };
-  border-bottom: 1px solid $green;
+  border-bottom: 1px solid $test-green;
   display: none;
   &.active {
     display: block;

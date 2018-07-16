@@ -3,8 +3,6 @@
   background-size: cover;
   background-position: center;
   color: #fff;
-  .logo__icon {
-  }
 }
 
 .footer__container {
@@ -51,6 +49,7 @@
     position: absolute;
     top: 0;
     background: url('../img/footer.png') no-repeat;
+    background-size: cover;
     height: 100%;
     width: rem(14);
   }

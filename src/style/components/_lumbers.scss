@@ -24,7 +24,7 @@
     &:before, &:after {
       content: '';
       position: absolute;
-      background: $green;
+      background: $test-green;
       width: 2px;
       top: 0;
     }
@@ -45,7 +45,7 @@
     &:after {
       content: '';
       position: absolute;
-      background: $green;
+      background: $test-green;
       width: 2px;
       height: rem(88);
       top: 0;

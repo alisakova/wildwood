@@ -62,7 +62,7 @@
 }
 
 .first-slide__test-block {
-  padding: rem(25) rem(48) 0;
+  padding: rem(123) rem(48) 0;
   border: {
     top: 2px solid #fff;
     left: 2px solid #fff;
@@ -148,5 +148,8 @@
   }
   .first-slide__test-text {
     font-size: 2.3rem;
+  }
+  .first-slide__test-block {
+    padding-top: rem(23);
   }
 }

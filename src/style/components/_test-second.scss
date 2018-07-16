@@ -9,6 +9,8 @@
     margin: 0 rem(24);
   }
   .choice__item {
+    max-width: rem(116);
+    min-width: rem(116);
     &_technology {
       .choice__img {
         width: rem(100);

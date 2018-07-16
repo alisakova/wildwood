@@ -1,10 +1,18 @@
 .test-eighth {
   .test__content {
     padding-top: rem(57);
-    border-top: 4px solid $green;
+    border-top: 4px solid $test-green;
     width: 100%;
   }
   .progress__complete {
     width: rem(174);
+  }
+}
+
+@media (max-width: 640px) {
+  .test-eighth {
+    .test__content {
+      padding-bottom: rem(40);
+    }
   }
 }

@@ -28,8 +28,8 @@
 }
 
 .test-button {
-  border: 2px solid $green;
-  color: $green;
+  border: 2px solid $test-green;
+  color: $test-green;
   font-size: rem(22);
   line-height: 1;
   font-weight: 500;
@@ -52,7 +52,7 @@
     }
   }
   &:hover, &:active, &:focus {
-    border-color: darken($green, 20%);
+    border-color: lighten($test-green, 20%);
   }
 }
 
