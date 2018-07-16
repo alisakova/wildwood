@@ -345,12 +345,24 @@
     }
   }
   .test__descr {
+    min-height: 0;
     padding: {
       left: rem(22);
       right: rem(22);
     }
+    &_flex {
+      justify-content: center;
+      align-items: center;
+      padding: {
+        top: rem(40);
+        bottom: rem(40);
+      }
+    }
   }
   .test__descr_сolumn {
     padding-top: rem(40);
+  }
+  .test__content {
+    padding-bottom: 0;
   }
 }
