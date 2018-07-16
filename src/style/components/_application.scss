@@ -94,6 +94,14 @@
     width: 100%;
   }
   .application__text-container {
-    font-size: rem(40);
+    font-size: rem(35);
+    position: static;
+    img {
+      display: none;
+    }
+  }
+  .application__text {
+    position: static;
+    transform: none;
   }
 }
