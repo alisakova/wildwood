@@ -82,5 +82,8 @@
   }
   .technologies__img {
     margin: 0 auto;
+    max-width: none;
+    min-width: 0;
+    width: 100%;
   }
 }

@@ -49,14 +49,14 @@
 
 @media (max-width: 540px) {
   .sub__text-block {
-    min-width: rem(126);
-    max-width: rem(126);
+    min-width: rem(100);
+    max-width: rem(100);
     height: rem(60);
-    font-size: rem(14);
+    font-size: rem(11);
     &:after {
       border: {
-        left-width: rem(63);
-        right-width: rem(63);
+        left-width: rem(50);
+        right-width: rem(50);
       }
     }
   }
